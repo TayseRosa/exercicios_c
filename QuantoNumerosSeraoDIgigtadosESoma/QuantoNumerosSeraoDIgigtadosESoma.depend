@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1679847742 source:/home/tayse/projects/FACULDADE/LaboratorioProgramacao/UdmC/QuantoNumerosSeraoDIgigtadosESoma/main.c
+	<stdio.h>
+	<stdlib.h>
+

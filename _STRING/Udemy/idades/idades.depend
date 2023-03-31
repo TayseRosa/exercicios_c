@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1680014280 source:/home/tayse/projects/FACULDADE/LaboratorioProgramacao/UdmC/idades/main.c
+	<stdio.h>
+	<stdlib.h>
+

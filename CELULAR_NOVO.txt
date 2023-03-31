@@ -1,0 +1,29 @@
+A23: R$1259,00
+Marca: Samsung
+Linha: Galaxy A
+Modelo: A23 5G Dual SIM
+Cor: Preto
+Memória interna: 128 GB 
+É Dual SIM: Sim
+Memória interna: 128 GB
+Memória RAM: 4 GB
+Tela: 6.6
+
+    A14: 1149,00
+Marca: Samsung
+Linha: Galaxy
+Modelo: A14
+É Dual SIM: Sim
+Tamanhos de cartão SIM compatíveis: Nano-SIM (4FF)
+Quantidade de ranhuras para cartão SIM: 2
+Memória interna: 128 GB
+Memória RAM: 4 GB
+Tipos de cartão de memória: Micro-SD
+Capacidade máxima do cartão de memória: 1 TB
+Com ranhura para cartão de memória: Sim
+NFC: Nao
+Tela: 6.6 PLS LCD
+Resolução da câmera traseira principal: 50 Mpx
+Resolução de vídeo da câmera traseira: 1920 x 1080
+Resolução da câmera frontal principal: 13 Mpx
+processador com oito núcleos, Octa-core, com a velocidade de 2.4GHz, 

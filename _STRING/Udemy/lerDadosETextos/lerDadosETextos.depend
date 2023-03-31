@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1679845604 source:/home/tayse/projects/FACULDADE/LaboratorioProgramacao/UdmC/lerDadosETextos/main.c
+	<stdio.h>
+	<string.h>
+
