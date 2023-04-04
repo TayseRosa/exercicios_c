@@ -1,8 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 //INFORMA QUANDO 2 NUMEROS SÃO CRESCENTE OU DECRESCENTE 
 //E QUANDO DIGITAR 2 NUMEROS IGUAIS, O PROGRMAA PARA!
+
+#include <stdio.h>
+#include <stdlib.h>
 
 int calcCrescDecresc(int x,int y){
     while( x != y ){

@@ -1,5 +1,24 @@
+//Função que recebe um VETOR por parâmetro e calcula a soma dos valores do vetor.
+
 #include <stdio.h>
 #include <stdlib.h>
+
+double functionPercorreVetor(double vet[], int n){
+    //Percorrendo o vetor
+    printf("\nVALORES: ");    
+    for (int i = 0; i < n; i++){
+        printf("%.1lf - ",vet[i]);
+    }
+}
+
+double functionSomaValoresVetor(double vet[], int n){
+    //Calculando a soma dos elementos do vetor
+    double soma=0;
+    for (int i = 0; i < n; i++){
+        soma = soma + vet[i];
+    }
+    printf("SOMA = %.2lf\n", soma);
+}
 
 int main(){
     int n;
@@ -13,22 +32,11 @@ int main(){
         printf("Digite um numero");
         scanf("%lf", &vet[i]);
     }
-    //Percorrendo o vetor
-    printf("\nVALORES: ");    
-    for (int i = 0; i < n; i++){
-        printf("%.1lf ",vet[i]);
-    }
+
+    functionPercorreVetor( &vet, n);
     printf("\n");
 
-    //Calculando a soma dos elementos do vetor
-    soma=0;
-    for (int i = 0; i < n; i++){
-        soma = soma + vet[i];
-    }
-    printf("SOMA = %.2lf\n", soma);
-    
-    media = soma / n;
-    printf("MEDIA = %.2lf\n\n", media);
+    functionSomaValoresVetor( &vet, n );   
 
     return 0;
 }

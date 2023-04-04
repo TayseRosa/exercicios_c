@@ -1,29 +1,29 @@
-#include <stdio.h>
-#include <stdlib.h>
+    #include <stdio.h>
+    #include <stdlib.h>
 
 
-int main(){
-    int n;
+    int main(){
+        int n;
 
-    printf("Quantos numeros voce vai digitar?\n");
-    scanf("%d", &n);
+        printf("Quantos numeros voce vai digitar?\n");
+        scanf("%d", &n);
 
-    int vet[n];
+        int vet[n];
 
-    for (int i = 0; i < n; i++){
-        printf("Digite um numero: ");
-        scanf("%d", &vet[i]);
-    }
-
-    printf("\nNumeros negativos\n");
-    for (int i = 0; i < n; i++){
-        if(vet[i] < 0 ){
-            printf("%d\n", vet[i]);
+        for (int i = 0; i < n; i++){
+            printf("Digite um numero: ");
+            scanf("%d", &vet[i]);
         }
-        
-    }
 
-    
-    
-    return 0;
-}
+        printf("\nNumeros negativos\n");
+        for (int i = 0; i < n; i++){
+            if(vet[i] < 0 ){
+                printf("%d\n", vet[i]);
+            }
+            
+        }
+
+        
+        
+        return 0;
+    }
